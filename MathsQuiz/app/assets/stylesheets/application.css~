@@ -1,0 +1,79 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.no-margin
+{
+	margin:0px;
+	}
+.no-padding
+{
+	padding:0px;
+}
+.site-footer
+{
+	background-color: #222;
+	color:#fff;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.bottom-footer
+{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #969696;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#EBEBEB;
+}
+
+.footer-nav
+{
+	text-align: right;
+	list-style: none;
+
+}
+.footer-nav li
+{
+	display: inline;
+	
+}
+
+.footer-nav li:not(:first-child):before
+{
+	content: '|';
+	padding: 0px 10px;
+}
+.footernav a{
+	color: #b2b2b2
+}
+.footer-nav a:hover
+{
+	color:#fff;
+	text-decoration: none;
+}
+.footersign
+{
+	color:#b2b2b2;
+}
+.mb-background
+{
+	background-color: #222;
+	color:#fff;
+}

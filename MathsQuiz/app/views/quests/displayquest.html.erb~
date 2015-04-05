@@ -1,0 +1,25 @@
+<h1>Maths questions</h1>
+<h5><%=$question1 %></h5>
+<%= text_field_tag "inputone" %>
+<h5><%=$question2 %></h5>
+<%= text_field_tag "inputtwo" %>
+<h5><%=$question3 %></h5>
+<%= text_field_tag "inputthree" %>
+<h5><%=$question4 %></h5>
+<%= text_field_tag "inputfour" %>
+<h5><%=$question5 %></h5>
+<%= text_field_tag "inputfive" %>
+<h5><%=$question6 %></h5>
+<%= text_field_tag "inputsix" %>
+<h5><%=$question7 %></h5>
+<%= text_field_tag "inputseven" %>
+<h5><%=$question8 %></h5>
+<%= text_field_tag "inputeight" %>
+<h5><%=$question9 %></h5>
+<%= text_field_tag "inputnine" %>
+<h5><%=$question10 %></h5>
+<%= text_field_tag "inputten" %>
+<%= form_tag "/validate" do %>
+</br>
+<%= submit_tag "Check answers" %>
+<% end %>
